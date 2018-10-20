@@ -1,0 +1,152 @@
+body {
+    background: #252628;
+}
+
+article {
+    padding: 10px;
+    width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background: url("../images/yi.jpg") no-repeat;
+    width: 800px;
+    height: 240px;
+    position: relative
+}
+
+header p {
+    font-size: 12px;
+    font-family: 方正兰亭超细黑简体;
+    line-height: 32px;
+    font-weight: bold;
+    color: #a7afbf
+}
+
+.yuan img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 2px 5px 5px #000000;
+    position: absolute;
+    top: 20px;
+    left: 320px;
+    border: 2px solid #a7afbf
+}
+
+.you {
+    float: right;
+    padding: 42px 65px 0 0
+}
+
+.waikuang {
+    padding: 10px 0 0 0;
+    width: auto;
+    height: auto;
+    margin: 10px auto;
+    border: red 2px solid;
+}
+
+section {
+    font-size: 12px;
+    font-family: 方正兰亭超细黑简体;
+    font-weight: bold;
+    line-height: 25px;
+    color: #a7afbf
+}
+
+.geren {
+    background: url("../images/biaozhi_03.png") no-repeat;
+    margin-left: 20px;
+    margin-top: 20px
+}
+
+.geren h2 {
+    font-size: 14px;
+    color: #a7afbf;
+    margin-left: 5px;
+    padding-bottom: 20px;
+}
+
+.jineng {
+    margin: 0 20px 0 20px
+}
+
+.geren2 {
+    background: url("../images/biaozhi_03.png") no-repeat;
+    margin-left: 20px;
+    margin-top: 20px
+}
+
+.geren2 h2 {
+    font-size: 14px;
+    color: #a7afbf;
+    margin-left: 5px;
+    padding-bottom: 20px;
+}
+
+.jingli {
+    margin: 0 20px 0 20px;
+    line-height: 25px
+}
+
+.geren3 {
+    background: url("../images/biaozhi_03.png") no-repeat;
+    margin-left: 20px;
+    margin-top: 20px
+}
+
+.geren3 h2 {
+    font-size: 14px;
+    color: #a7afbf;
+    margin-left: 5px;
+    padding-bottom: 20px;
+}
+
+.jiangxiang {
+    margin: 0 20px 0 20px;
+    line-height: 25px
+}
+
+.geren4 {
+    background: url("../images/biaozhi_03.png") no-repeat;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.geren4 h2 {
+    font-size: 14px;
+    color: #a7afbf;
+    margin-left: 5px;
+    padding-bottom: 20px;
+}
+
+.pingjia {
+    margin: 0 20px 40px 20px;
+    padding-bottom: 12px;
+    line-height: 25px;
+    border-bottom: 2px solid #a7afbf;
+}
+
+@media all and (max-width: 640px) {
+    article {
+        width: 100%;
+        box-sizing: border-box
+    }
+header{width: 100%;}
+    section figure {
+        width: 100%
+    }
+.you{float: none;margin-left: 40px}
+    section figure img {
+        width: 100%
+    }
+
+    .yuan {
+        width: 100%;
+        float: none;
+        margin: 10px 0 0 0
+
+    }
+    .yuan img{left: 240px}
+}
